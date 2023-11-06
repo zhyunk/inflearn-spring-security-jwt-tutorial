@@ -47,8 +47,10 @@ public class SecurityConfig {
                 .exceptionHandling(config -> config
                         .authenticationEntryPoint(jwtAuthenticationEntryPoint)
                         .accessDeniedHandler(jwtAccessDeniedHandler))
-                .sessionManagement(config -> config.sessionCreationPolicy(STATELESS)) // session 미사용 설정
-                .headers(config -> config.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)) // h2를 위한 설정
+                .sessionManagement(config -> config
+                        .sessionCreationPolicy(STATELESS)) // session 미사용 설정
+                .headers(config -> config
+                        .frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin)) // h2를 위한 설정
 
                 .authorizeHttpRequests(config -> config
                         .requestMatchers(PathRequest.toH2Console()).permitAll()

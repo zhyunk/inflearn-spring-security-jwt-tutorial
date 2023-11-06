@@ -7,5 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthorityDto {
+
     private String authorityName;
+    
 }

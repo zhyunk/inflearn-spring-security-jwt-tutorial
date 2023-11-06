@@ -43,9 +43,6 @@ public class TokenProvider implements InitializingBean {
 
     /**
      * Security의 Authentication 객체를 이용하여 JWT 토큰 생성
-     * 
-     * @param authentication
-     * @return
      */
     public String createToken(Authentication authentication) {
         String authorities = authentication.getAuthorities().stream()
