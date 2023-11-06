@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/authenticate
+Content-Type: application/json
+#admin# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTY5OTI4MjU2OX0.eDP2HT4jNhh5OJWuXEVr-vSMHKiuQd_k0Vn8hxwpJBR1i9qHKniSMzQ5r093Qqa_QwtvJyt2-NAiT-XzOzHZiA
+#zhyun# Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ6aHl1biIsImF1dGgiOiJST0xFX1VTRVIiLCJleHAiOjE2OTkyODM3MTh9.Rff_txUqKuTE8X4ZVUdxB6yYjUVVxMuQgaEWwzOWNHa93Yoh_9ciCrgvMyPigZGk0jxSw_f3uWI11TsEXoSNxw
+
+{
+  "username": "zhyun",
+  "password": "zhyun"
+}

@@ -1,0 +1,7 @@
+### admin 권한 허용 : 호출 닉네임 유저 정보
+GET http://localhost:8080/api/user/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ6aHl1biIsImF1dGgiOiJST0xFX1VTRVIiLCJleHAiOjE2OTkyODU1Mjd9.eH62bFCxGhCjnsDhNU2u-o5T33PxmTz-e0swU0oz93ZSHFLGWgxoLOouNikOAruC8HoqkJknv0vBpAhYYk1uIg
+
+### admin, user 권한 허용 : 로그인 계정 정보
+GET http://localhost:8080/api/user
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ6aHl1biIsImF1dGgiOiJST0xFX1VTRVIiLCJleHAiOjE2OTkyODU1Mjd9.eH62bFCxGhCjnsDhNU2u-o5T33PxmTz-e0swU0oz93ZSHFLGWgxoLOouNikOAruC8HoqkJknv0vBpAhYYk1uIg
